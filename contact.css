@@ -1,0 +1,340 @@
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+label {
+    color: grey;
+}
+#all {
+    width: 500px;
+    margin: 0 auto;
+}
+input, select, textarea{
+    color: grey;
+}
+
+textarea:focus, input:focus {
+    color: grey;
+}
+#all input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+#all input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#all input[type=submit]:hover {
+    background-color: #45a049;
+}
+body{
+	background-color: black;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.insidefooter11 {
+   font-family: 'Oswald', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    height: 22px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    text-align: center;
+}
+.insidefooter12 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+.insidefooter12 i:hover{
+    color: white;
+}
+.socialmedia {
+    color: rgba(255,255,255,0.3);
+    border: 1px solid #333333;
+    border-radius: 50%;
+    width: 60px;
+    height: 47px;
+    padding-top: 15px;
+}
+#footer1 {
+    height: 200px;
+    border-top: 0.03px solid #333333;
+    border-bottom: 1.5px solid #333333;
+}
+#footer2 {
+    height: 200px;
+}
+.c1{
+    width: 21%;
+    height: 200px;
+    border-right: 1px solid #333333;
+    float: left;
+}
+.c1 img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -50px; /* Half the height */
+    margin-left: -50px; /* Half the width */
+}
+.c3{
+    width: 22%;
+    height: 200px;
+    float: left;
+}
+.c2 {
+    width: 56%;
+    height: 200px;
+    float: left;
+}
+.downtext {
+    width: 100px;
+    color: white;
+    padding-left: 60px;
+    border-right: 1px solid #333333;
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 40px;
+}
+.downtext2 {
+    width: 100px;
+    color: white;
+    padding-left: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.alldowntexts {
+    position: relative;
+    top: 90px;
+}
+.alldowntexts a:visited {
+    color: grey;
+}
+.image1{
+	height: 240px;
+	width: 45%;
+	margin-left: 180px ;
+}
+.image2{
+	width: 45%;
+	margin-left: 180px;
+	height: 255px;
+}
+.image3{
+	position: absolute;
+	height: 500px; 
+}
+.logo{
+	width: 20%;
+}
+.f1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 810px;
+	border-right: 0.5px black;
+	border-bottom: 0.5px black;
+	color: grey;
+    margin: 0 auto;
+    height: 70px;
+}
+
+#topbar {
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+}
+.f3{
+	font-family: 'Oswald', sans-serif;
+	color: grey;
+    margin: 0 auto;
+}
+.f3 a {
+    text-decoration: none;
+    color: grey;
+}
+.f3 a:visited{
+  color: grey;
+}
+.f3:hover {
+	color: white;
+    
+}
+.f3 a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+/* */
+.f1 a {
+    text-decoration: none;
+    color: grey;
+}
+.f1 a:visited{
+  color: grey;
+}
+.f1:hover {
+	color: white;
+    
+}
+.f1 a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.shoes{
+
+	color: grey;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 24px;
+}
+table{
+	display: block;
+    margin: 0 auto;
+}
+.fasel{
+
+    width: 50%;
+    height: 20px;
+    display: block;
+    margin:0 auto;
+}
+
+h2 a{ 
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	position: relative;
+    text-decoration: none;
+    font-size: 35px;
+}
+h2 a:hover{
+    color: white;
+}
+h2 a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #660000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+h2 a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
